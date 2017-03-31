@@ -1,0 +1,24 @@
+{
+  "name": "basic-webpack-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "keywords": [],
+  "author": "Fate Riddle <fateriddle@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
